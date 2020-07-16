@@ -26,7 +26,7 @@
                 
                 <div class="form-group">
                     {!! Form::label('password_confirmation', 'Confirmation') !!}
-                    {!! Form::password('password_onfirmation', ['class' => 'form-control']) !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
                 </div>
 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-primary btn-block']) !!}
