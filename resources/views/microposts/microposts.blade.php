@@ -22,6 +22,10 @@
                             {!! Form::close() !!}
                         @endif
                     </div>
+                    <div>
+                        {{-- お気に入り登録・削除ボタン --}}
+                        @include('user_favorite.favorite_button')
+                    </div>
                 </div>
             </li>
         @endforeach
